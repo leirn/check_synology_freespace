@@ -3,7 +3,7 @@ Synology freespace check for Nagios
 
 The connexion is made to the NAS using the SNMPv3 with MD5 authentification and no private password. (authNoPriv). The required username and password are those defined in the SNMP configuration.
 
-Command usage: 
+Command usage:  
 check_synology_freespace.php [-h -v] -H hostname -u username -p password -w warning -c critical [-m mode] [-i id] 
 	SNMP v3 check of available space on Synology NAS 
 	
